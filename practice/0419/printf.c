@@ -7,11 +7,11 @@ int main(){
 	printf("%d\n",num/3); 
 	//intは整数型なので少数以下を表現できない
 
-	double num2 = 4.0/3.0; 
+	float num2 = 4.0/3.0; 
 	printf("%f\n",num2);
 	//floatは少数なので整数でも.0と表記しよう
 
-	char word = 'k'; 
+	char word = 'h'; 
 	printf("%c\n",word);
 	//char型は一文字までしか扱えない
 
@@ -21,3 +21,5 @@ int main(){
 	//単語を扱いたいときは配列をつかおう
 	//配列の先頭は[0]から始まる
 }
+
+	//新たな変数を作成、現在の変数の値を変更することなく brother と出力せよ
